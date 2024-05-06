@@ -12,7 +12,7 @@ class KotlinFeaturesService {
         if (remainingCalls > 0) {
             recursiveServiceWithException(remainingCalls-1)
         } else {
-            throw CustomException("EXCEPTION!!")
+            throw CustomException()
         }
     }
 
